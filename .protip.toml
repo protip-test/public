@@ -1,0 +1,15 @@
+[[proto]]
+  input_paths = [
+    "proto/",
+  ]
+
+  [proto.go]
+    output_path = "golang/src/"
+    grpc = true
+
+  [proto.js]
+    output_path = "typescript/src/"
+
+  [proto.grpcweb]
+    output_path = "typescript/src/"
+    typescript = true
